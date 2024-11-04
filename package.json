@@ -1,0 +1,24 @@
+{
+  "name": "desafio_2-presenca-humor",
+  "version": "1.0.0",
+  "description": "Preseça e humor",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon src/main.js",
+    "start": "node src/main.js",
+    "build": "npm i --omit=dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
